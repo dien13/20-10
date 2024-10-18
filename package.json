@@ -1,0 +1,11 @@
+{
+  "name": "20-10",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Build script not defined'",  // Nếu không sử dụng framework cần chỉ định lệnh build phù hợp
+    "start": "your-start-command"                 // Lệnh khởi động nếu cần
+  },
+  "dependencies": {
+    // Thêm các phụ thuộc của bạn ở đây
+  }
+}
