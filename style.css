@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafad2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Kích thước cơ bản, có thể thay đổi trong media query */
+}
+
+/* Sử dụng chiều rộng linh hoạt và bỏ chiều cao cố định */
+.wrapper {
+    width: 85%; /* Đảm bảo wrapper chiếm 90% màn hình */
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa cho wrapper */     
+    margin: 100px auto;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column; /* Trên màn hình nhỏ, nội dung sẽ xếp theo cột */
+    background-color: #fff;
+}
+
+/* Đảm bảo hình ảnh và phần thông tin co giãn theo màn hình */
+.product-info {
+    width: 100%; /* Sử dụng 100% để hình ảnh và nội dung co giãn */
+    height: auto; /* Bỏ chiều cao cố định */
+}
+
+.product-img img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng */
+    height: auto;
+    border-radius: 7px 7px 0 0;
+    display: block;
+}
+
+.product-img {
+    overflow: hidden;
+}
