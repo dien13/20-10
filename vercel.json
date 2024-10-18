@@ -1,13 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ],
-  "hints": {
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ]
-  }
+  ]
 }
